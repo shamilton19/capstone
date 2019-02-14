@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!-- Doctype Definition DTD-->
+<html>
+    <head>
+        <!--************************Metadata*******************-->
+        <link rel="stylesheet" href="css/styles.css">
+        <meta http-equiv="Content-type" content="text/html"/>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="This website is about something"/>
+        <meta name="author" content="Sean Hamilton"/>
+        <meta name="copyright" content="2017"/>
+        <meta name="keywords" content="Web, design, search,"/>
+        <meta name="robots" content="noindex, nofollow"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+	<link rel= "stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+        
+   
+        <!--************************CSS*******************-->
+
+         
+        <!--************************Javascript*******************-->
+   
+    </head>
+    <body>
+        
+    
+
+		
+		
+    	 <!-- SOCIAL MEDIA BAR CODE --> 
+        <div class="icon-bar" class="sticky-top">
+  <a href="https://playatias.com/" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="https://playatias.com/" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://playatias.com/" class="google"><i class="fa fa-google"></i></a> 
+  <a href="https://playatias.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="https://playatias.com/" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div> 
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="mainNav" class="mynav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Sean Hamilton</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="Gallery.html">Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+              <div class="text">
+                  <div class="text">
+            <h2>Name Of The Project</h2>
+                  </div>
+              </div>
+			  <img src="image/stock Project.jfif" alt="4th pic" width="600" height="920">
+            <p class= "lead">What is this project?</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a elit in tellus
+			sollicitudin lacinia rhoncus at mi. Nunc ac elit nec ex ullamcorper congue. Nulla
+			sollicitudin enim ac odio porta, eu congue ipsum dapibus. Donec blandit urna ac urna
+			blandit, vitae pulvinar augue sodales. Integer convallis lacinia ligula, a eleifend 
+			ante mollis at. Morbi id felis iaculis ligula maximus dapibus. Sed at turpis turpis. </p>
+            
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+ 
+        
+        
+        
+        
+
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+    <script src="contact.js"></script>     
+        
+ 
+	  
+
+ 
+                    
+            
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    </body>
+    <footer>
+        <div class="bg-light">
+    <br>
+            Website made by Sean Hamilton
+     <br>
+    <br>
+    </div>
+    
+      <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script> 
+    </footer>
+</html>
